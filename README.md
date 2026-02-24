@@ -68,6 +68,18 @@ EMAIL_PASSWORD = "your_password"
 CHECK_INTERVAL = 86400  # 24 hours (in seconds)
 ```
 
+## 📊 Visual Analysis
+
+### 1️⃣ Product Average Price
+
+![Average Price](assets/avg_price.png)
+
+### 2️⃣ Product Price Changes Over Time
+
+![Price Trends](assets/price_trends.png)
+
+---
+
 ### ▶️ How To Run
 
 1. **Install dependencies:**
@@ -76,8 +88,11 @@ CHECK_INTERVAL = 86400  # 24 hours (in seconds)
 2. **Start the application:**
    ```bash
    python main.py
+3. **(Optional) Generate analysis plots:**
+ ```bash
+   python analysis.py
 
-
+```
 ## 📂 Project Structure
 ```
 
@@ -97,7 +112,7 @@ CHECK_INTERVAL = 86400  # 24 hours (in seconds)
 ```
 
 
----
+
 
 ## 👨‍💻 Author
 
