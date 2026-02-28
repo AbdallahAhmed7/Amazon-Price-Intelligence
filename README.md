@@ -60,13 +60,54 @@ Daily Amazon Price Report
 
 ## 🔧 Configuration
 
-Before running the script, update `config.py` with your credentials:
+Before running the script, update the `config.py` file with your credentials and settings.
 
 ```python
+# ==============================
+# Product URLs to Track
+# ==============================
+
+PRODUCT_URLS = [
+    "https://www.amazon.com/product-1",
+    "https://www.amazon.com/product-2",
+    # Add more product URLs here
+]
+
+
+# ==============================
+# Request Headers (Browser Simulation)
+# ==============================
+
+HEADERS = {
+    "User-Agent": "Your Browser User-Agent",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "DNT": "1",
+    "Connection": "close",
+    "Upgrade-Insecure-Requests": "1",
+}
+
+
+# ==============================
+# Script Configuration
+# ==============================
+
+CHECK_INTERVAL = 86400   # 24 hours (in seconds)
+CSV_FILE_NAME = "Amazon_Product_Dataset.csv"
+
+
+# ==============================
+# Email Configuration
+# ==============================
+
 EMAIL_ADDRESS = "your_email@gmail.com"
 EMAIL_PASSWORD = "your_password"
-CHECK_INTERVAL = 86400  # 24 hours (in seconds)
+
+SMTP_SERVER = "smtp.gmail.com"
+SMTP_PORT = 465
 ```
+
+#
 
 ## 📊 Visual Analysis
 
