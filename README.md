@@ -154,7 +154,6 @@ SMTP_PORT = 465
 
 
 
-
 ## 👨‍💻 Author
 
 **Abdallah Ahmed**
