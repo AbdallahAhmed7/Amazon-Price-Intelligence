@@ -34,7 +34,7 @@ A Python project that scrapes Amazon product prices, stores historical data, sen
    - Product price
    - Currency
 3. Saves data to CSV with today's date.
-4. Converts all prices to EGP.
+4. Converts all prices to EGP for Easier Analysis.
 5. Generates a daily summary email.
 6. Sends the report automatically.
 
